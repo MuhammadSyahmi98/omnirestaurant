@@ -107,7 +107,7 @@
 		padding: 0 5%;
 	}
 
-	/*.main-nav {display: none;}*/
+	.main-nav {display: none;}
 	.mobile-nav-icon {display: inline-block;}
 
 	.main-nav {
@@ -128,7 +128,30 @@
 		/*Kalau tak letak nnti tak de space antara link*/
 		display: block;
 		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
 	}
+
+
+	.sticky .sub-nav:link,
+	.sticky .sub-nav:visited {
+		padding: 7px 0;
+	}
+
+
+	.sticky .main-nav {
+		margin-top: 17px;
+	}
+
+	.sticky .mobile-nav-icon i {
+	color: black;
+	}
+
+	.sticky .mobile-nav-icon {
+		margin-top: 10px;
+	}
+
+
 
 	h1 {
 		font-size: 180%;
