@@ -107,8 +107,27 @@
 		padding: 0 5%;
 	}
 
+	/*.main-nav {display: none;}*/
+	.mobile-nav-icon {display: inline-block;}
+
 	.main-nav {
-		display: none;
+		float: left;
+		/*Kena letak kalau tak li tak stack. Aku tak fhm tapi buat je cmni okay?*/
+		display: block;
+		margin-top: 35px;
+		margin-left: 25px;
+
+	}
+
+	.main-nav li {
+		display: block;
+	}
+
+	.sub-nav:link,
+	.sub-nav:visited {
+		/*Kalau tak letak nnti tak de space antara link*/
+		display: block;
+		border: 0;
 	}
 
 	h1 {
